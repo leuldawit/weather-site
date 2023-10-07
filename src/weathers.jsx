@@ -134,7 +134,7 @@ export function Weathers() {
                     <label className='location' >{cityName}</label>
                     <div htmlFor="" className="temp">
                         <label htmlFor="" className="termo"></label>{Math.round(weatherData.main.temp - 273)}°C
-                        <label htmlFor="" className="cloud">c</label>
+                        <label htmlFor="" className="cloud"></label>
                     </div>
                     <div className="details">
                         <table>
